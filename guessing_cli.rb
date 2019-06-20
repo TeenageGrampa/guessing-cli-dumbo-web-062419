@@ -7,4 +7,5 @@ def run_guessing_game
         puts "Goodbye!"
         break
         elsif guess.to_i == computer_number
+        puts "You guessed the correct number!"
         
