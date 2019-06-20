@@ -4,4 +4,6 @@ def run_guessing_game
       guess = gets.chomp
       computer_number = rand(1..6)
       if guess == "exit"
+        puts "Goodbye!"
+        break
         
